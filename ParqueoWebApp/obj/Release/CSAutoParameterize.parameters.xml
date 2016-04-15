@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-ParqueoWebApp-20160415120906.mdf;Initial Catalog=aspnet-ParqueoWebApp-20160415120906;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\elnor\\Documents\\GitHub\\ParqueoWebApp\\ParqueoWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ParqueoWebApp.Properties.Settings.Azure-Web.config Connection String" description="ParqueoWebApp.Properties.Settings.Azure Connection String used in web.config by the application to access the database." defaultValue="Data Source=jaa4ef2vub.database.windows.net;Initial Catalog=Parqueo;Persist Security Info=True;User ID=parqueo;Password=p@$$w0rD" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\elnor\\Documents\\GitHub\\ParqueoWebApp\\ParqueoWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ParqueoWebApp.Properties.Settings.Azure']/@connectionString" />
+  </parameter>
+</parameters>

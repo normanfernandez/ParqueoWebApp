@@ -1,0 +1,24 @@
+﻿
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>QR</td>
+            <td>Placa</td>
+            <td>Fecha Entrada</td>
+            <td>Fecha Salida</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (ParqueoWebApp.Models.Parqueo p in Model)
+        {
+            <tr>
+                <td>@p.cedula</td>
+                <td>@p.placa</td>
+                <td>@p.fecha_entrada</td>
+                <td>@p.fecha_salida</td>
+            </tr>
+        }
+            
+    </tbody>
+</table>
